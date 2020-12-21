@@ -53,37 +53,3 @@ print(df_all.dtypes)
 
 
 
-
-# sns.jointplot(data = df_all, x =5, y = 6, kind = "reg",line_kws = {"color":"red"})
-# sns.jointplot(x=5, y=6, data =  df_all)
-# plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# df_all["8"].str.strip('.000000','')
-# print(df_n)
-
-
-# これ””をつけたらダメだったてやつじゃん。列名作ってないからこうなった。７と８はなぜか列名作ってるけど、直すのめんどいからこのまま行く
-# df_all[5] = df_all[5].str[:3]
-# df_all[6] = df_all[6].str[:8]
-
-# df_all['5'] = df_all['5'].astype(float)
-# df_all['6'] = df_all['6'].astype(float)
-# d?f_all['8'] = df_all['8'].astype(int) #  df_all['8'].astype(int)では上書きされない→うまくできなかった
-# df_all.replace('.', '').astype(float)
